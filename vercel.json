@@ -1,9 +1,18 @@
 {
-    "routes": [
-      {
-        "handle": "rewrite",
-        "source": "/(.*)",
-        "destination": "http://177.22.91.106:8080/$1"
-      }
-    ]
-  }
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "http://177.22.91.106:8080/$1",
+      "has": [
+        {
+          "type": "host",
+          "value": "177.22.91.106"
+        },
+        {
+          "type": "protocol",
+          "value": "http"
+        }
+      ]
+    }
+  ]
+}
