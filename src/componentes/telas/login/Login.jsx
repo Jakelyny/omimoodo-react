@@ -29,7 +29,6 @@ function Login() {
             "Content-Type": "application/json",
           },
           body: JSON.stringify(body),
-          referrerPolicy: "unsafe_url" 
         };
       
         try {
