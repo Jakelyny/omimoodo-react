@@ -1,0 +1,9 @@
+{
+    "routes": [
+      {
+        "handle": "rewrite",
+        "source": "/(.*)",
+        "destination": "http://177.22.91.106:8080/$1"
+      }
+    ]
+  }
