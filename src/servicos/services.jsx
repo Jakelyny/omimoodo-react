@@ -1,7 +1,7 @@
 import { getToken } from '../seguranca/Autenticacao';
 
 
-const API_BASE_URL = 'http://localhost:8080';
+const API_BASE_URL = 'http://177.22.91.106:8080';
 
 const authenticatedRequest = async (url, method, body = null) => {
   const token = await getToken();
