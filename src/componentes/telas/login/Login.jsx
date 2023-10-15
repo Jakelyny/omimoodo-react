@@ -16,7 +16,7 @@ function Login() {
 
 
     const acaoLogin = async () => {
-        const tokenEndpoint = "http://localhost:8080/login";
+        const tokenEndpoint = "http://177.22.91.106:8080/login";
       
         const body = {
             "email": email,
