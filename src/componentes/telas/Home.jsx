@@ -1,7 +1,10 @@
+import React from 'react';
+import '../../App.css';
+
 const Home = () => (
-    <div>
-        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
-        <h1>Omimoodo Blog</h1>
+    <div className="home-container">
+        <h1 className="title">Omimoodo Blog</h1>
+        <img src="logo.png" alt="logo omimoodo" className="logo" />
     </div>
 )
 
